@@ -1,0 +1,41 @@
+spawner:
+    pig:
+        price: 3000
+        vip: false
+        enabled: true
+    zombie:
+        price: 4000
+        vip: false
+        enabled: true
+    skeleton:
+        price: 5000
+        vip: false
+        enabled: true
+    spider:
+        price: 5000
+        vip: false
+        enabled: true
+    creeper:
+        price: 10000
+        vip: true
+        enabled: true
+    wolf:
+        price: 3000
+        vip: false
+        enabled: true
+    blaze:
+        price: 12000
+        vip: true
+        enabled: true
+    enderman:
+        price: 12000
+        vip: true
+        enabled: true
+    pig_zombie:
+        price: 8000
+        vip: true
+        enabled: true
+    villager:
+        price: 10
+        vip: true
+        enabled: false

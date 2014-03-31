@@ -1,0 +1,20 @@
+name: BuySpawner
+version: 1.0
+main: pl.AYuPro.BuySpawners.BuySpawner
+author: AYuPro
+description: Buy Spawner for money.
+depend: [Vault, WorldGuard]
+
+commands:
+    spawner:
+        usage: /<command>
+        aliases: [sp, spawners]
+        description: Command for Buy Spawners.
+
+permissions:
+    spawner.cmd:
+        description: Give the ability for Buy Spawners.
+        default: op
+    spawner.vip:
+        description: Give the ability to Buy Spawners marked vip in config.
+        default: op
